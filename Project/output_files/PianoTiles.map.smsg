@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at keyboard_inner_driver.v(47): always construct contains both blocking and non-blocking assignments File: W:/Project/keyboard_inner_driver.v Line: 47
+Info (10281): Verilog HDL Declaration information at pianotiles.v(538): object "set" differs only in case from object "SET" in the same scope File: W:/Project/pianotiles.v Line: 538
+Warning (10268): Verilog HDL information at pianotiles.v(719): always construct contains both blocking and non-blocking assignments File: W:/Project/pianotiles.v Line: 719
+Warning (10268): Verilog HDL information at pianotiles.v(880): always construct contains both blocking and non-blocking assignments File: W:/Project/pianotiles.v Line: 880

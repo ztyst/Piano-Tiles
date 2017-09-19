@@ -1,0 +1,88 @@
+
+State Machine - |PianoTiles|current
+Name current.COL4CLEARWAIT current.COL4CLEAR current.COL3CLEARWAIT current.COL3CLEAR current.COL2CLEARWAIT current.COL2CLEAR current.COL1CLEARWAIT current.connection current.COL1CLEAR current.COL4LUT current.COL3LUT current.COL2LUT current.COL1LUT current.COL4WAIT current.COL4DRAW current.COL3WAIT current.COL3DRAW current.COL2WAIT current.COL2DRAW current.COL1WAIT current.COL1DRAW 
+current.COL1DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current.COL1WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current.COL2DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current.COL2WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current.COL3DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current.COL3WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current.COL4DRAW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current.COL4WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current.COL1LUT 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current.COL2LUT 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current.COL3LUT 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current.COL4LUT 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current.COL1CLEAR 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current.connection 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL1CLEARWAIT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL2CLEAR 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL2CLEARWAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL3CLEAR 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL3CLEARWAIT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL4CLEAR 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current.COL4CLEARWAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |PianoTiles|draw:t4|current
+Name current.SET current.FINISH current.NEXT_LUT current.DRAW current.CHECK current.WAIT 
+current.WAIT 0 0 0 0 0 0 
+current.CHECK 0 0 0 0 1 1 
+current.DRAW 0 0 0 1 0 1 
+current.NEXT_LUT 0 0 1 0 0 1 
+current.FINISH 0 1 0 0 0 1 
+current.SET 1 0 0 0 0 1 
+
+State Machine - |PianoTiles|draw:t3|current
+Name current.SET current.FINISH current.NEXT_LUT current.DRAW current.CHECK current.WAIT 
+current.WAIT 0 0 0 0 0 0 
+current.CHECK 0 0 0 0 1 1 
+current.DRAW 0 0 0 1 0 1 
+current.NEXT_LUT 0 0 1 0 0 1 
+current.FINISH 0 1 0 0 0 1 
+current.SET 1 0 0 0 0 1 
+
+State Machine - |PianoTiles|draw:t2|current
+Name current.SET current.FINISH current.NEXT_LUT current.DRAW current.CHECK current.WAIT 
+current.WAIT 0 0 0 0 0 0 
+current.CHECK 0 0 0 0 1 1 
+current.DRAW 0 0 0 1 0 1 
+current.NEXT_LUT 0 0 1 0 0 1 
+current.FINISH 0 1 0 0 0 1 
+current.SET 1 0 0 0 0 1 
+
+State Machine - |PianoTiles|draw:t1|current
+Name current.SET current.FINISH current.NEXT_LUT current.DRAW current.CHECK current.WAIT 
+current.WAIT 0 0 0 0 0 0 
+current.CHECK 0 0 0 0 1 1 
+current.DRAW 0 0 0 1 0 1 
+current.NEXT_LUT 0 0 1 0 0 1 
+current.FINISH 0 1 0 0 0 1 
+current.SET 1 0 0 0 0 1 
+
+State Machine - |PianoTiles|keyboard_press_driver:kb4|count
+Name count.11 count.10 count.01 count.00 
+count.00 0 0 0 0 
+count.01 0 0 1 1 
+count.10 0 1 0 1 
+count.11 1 0 0 1 
+
+State Machine - |PianoTiles|keyboard_press_driver:kb3|count
+Name count.11 count.10 count.01 count.00 
+count.00 0 0 0 0 
+count.01 0 0 1 1 
+count.10 0 1 0 1 
+count.11 1 0 0 1 
+
+State Machine - |PianoTiles|keyboard_press_driver:kb2|count
+Name count.11 count.10 count.01 count.00 
+count.00 0 0 0 0 
+count.01 0 0 1 1 
+count.10 0 1 0 1 
+count.11 1 0 0 1 
+
+State Machine - |PianoTiles|keyboard_press_driver:kb1|count
+Name count.11 count.10 count.01 count.00 
+count.00 0 0 0 0 
+count.01 0 0 1 1 
+count.10 0 1 0 1 
+count.11 1 0 0 1 
